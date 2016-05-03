@@ -3,5 +3,6 @@ from battleBot import BattleBot
 
 bot = BattleBot()
 
-bot.moveForward('forward', 12)
+bot.move_forward('forward', 12)
 
+bot.attack()
