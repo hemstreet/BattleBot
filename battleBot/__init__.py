@@ -8,7 +8,7 @@ class BattleBot:
         self.movement = Movement()
         self.weapon = Weapon()
 
-    def move_forward(self, direction, speed):
+    def move(self, direction, speed):
         self.movement.move(direction, speed)
 
     def attack(self):
