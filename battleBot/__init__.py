@@ -1,3 +1,4 @@
+"""Battle Bot core"""
 from battleBot.Movement import Movement
 from battleBot.Weapon import Weapon
 
